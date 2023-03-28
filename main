@@ -1,0 +1,6 @@
+"""
+ini adalah trial pertama menggunakan python
+"""
+
+print("hello world")
+print("my name is ")
