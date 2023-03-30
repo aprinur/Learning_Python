@@ -4,7 +4,7 @@ Semua sintaksis dasar bahasa pemrograman terdiri dari :
 2. Percabangan : langkah melompat jika kondisi terpenuhi
 3. Perulangan : mengulang langkah yang sama berkali kali selama/sampai kondisi terpenuhi
 """
-#Sekuensial
+#Sekuensial#
 print('ibu berkata,"Pergi ke toko"')
 print('Budi menjawab,"Apa yang harus saya lakukan di toko?"')
 print('Ibu mejawab, "Beli satu botol susu, jika ada telur belu 6"')
