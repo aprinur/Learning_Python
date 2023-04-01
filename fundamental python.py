@@ -7,7 +7,7 @@ Semua sintaksis dasar bahasa pemrograman terdiri dari :
 # Sekuensial
 print('ibu berkata,"Pergi ke toko"')
 print('Budi menjawab,"Apa yang harus saya lakukan di toko?"')
-print('Ibu mejawab, "Beli satu botol susu, jika ada telur bel1 6 "')
+print('Ibu mejawab, "Beli satu botol susu, jika ada telur bel1 6 butir "')
 print("Maka budi berangkat ke toko")
 
 
