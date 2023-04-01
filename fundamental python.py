@@ -30,3 +30,4 @@ else:
 
 
 print('budi pulang dan menyerahkan hasil belanjaan kepada ibu')
+
