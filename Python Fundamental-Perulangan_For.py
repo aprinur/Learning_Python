@@ -2,7 +2,7 @@
 Contoh perulangan menggunakan for
 """
 
-jumlah_buku = 19
+jumlah_buku = 10
 print('Ibu berkata, "Baca semua bukumu"')
 
 jumlah_buku_yang_sudah_dibaca = 0
