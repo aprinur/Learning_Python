@@ -27,3 +27,4 @@ if jumlah_telur < 6:
     print(f'Budi membeli {jumlah_telur} butir telur')
 
 print('budi pulang dan menyerahkan hasil belanjaan kepada ibu')
+
