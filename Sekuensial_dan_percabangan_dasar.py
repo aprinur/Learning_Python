@@ -12,8 +12,8 @@ print("Maka budi berangkat ke toko")
 
 
 # Percabangan
-jumlah_botol_susu = y = 12
-jumlah_telur = x = 5
+jumlah_botol_susu = y = 1
+jumlah_telur = x = 8
 print(fr"Jumlah botol susu {y} botol")
 print(f'jumlah telur {jumlah_telur} butir')
 if jumlah_botol_susu > 0:
@@ -23,11 +23,7 @@ else:
     print('budi tidak jadi membeli susu')
 if jumlah_telur > 6:
     print('budi membeli 6 buah telur')
-if jumlah_telur > 0 < 6:
-    print(f"budi membeli {x} butir telur")
-else:
-    print('budi hanya membeli 1 botol susu')
-
+if jumlah_telur < 6:
+    print(f'Budi membeli {jumlah_telur} butir telur')
 
 print('budi pulang dan menyerahkan hasil belanjaan kepada ibu')
-
