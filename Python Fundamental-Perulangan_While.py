@@ -2,7 +2,7 @@
 Contoh perulangan dengan While
 """
 
-Jumlah_Buku = 10
+Jumlah_Buku = 100
 print('Ibu berkata, "Baca semua bukumu"')
 
 Jumlah_buku_yang_sudah_dibaca = 0
