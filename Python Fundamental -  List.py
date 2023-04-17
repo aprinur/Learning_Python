@@ -58,9 +58,39 @@ daftar_buku.pop()
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
-# Menghilangkan buku seven habbits dengan pop -2 ( -2 dihitung dari list paling kanan )
+# Menghilangkan buku seven habbits dengan pop -2 ( -2 dihitung dari list paling kanan,-2 bisa diganti angka lain )
 print('\nPop -2')
 daftar_buku = ['Fundamental Python', 'How to change your bad habbits', 'Seven Habbits', '4DX']
 daftar_buku.pop(-2)
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
+
+# Menghapus dengan perintah del
+print('\nPerintah del')
+daftar_buku = ['Fundamental Python', 'How to change your bad habbits', 'Seven Habbits', '4DX']
+del daftar_buku[0]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+# Menghapus elemen pada list dengan perintah del dan list comperhension
+print('\nPerintah del dengan list comprehension')
+daftar_buku = ['Fundamental Python', 'How to change your bad habbits', 'Seven Habbits', '4DX']
+del daftar_buku[:]  # Format list comperhension [start:end], saat di run akan hilang semua karena start dan end kosong
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+# Contoh lain menghapus elemen pada list dengan perintah del dan list comperhension
+print('\nPerintah del dengan list comprehension')
+daftar_buku = ['Fundamental Python', 'How to change your bad habbits', 'Seven Habbits', '4DX']
+del daftar_buku[0:-2]  # Format list comperhension [start:end], saat di run akan hilang elemen pertama sampai
+# ketiga dari belakang
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+# Contoh lain menghapus elemen pada list dengan perintah del dan list comperhension
+print('\nPerintah del dengan list comprehension')
+daftar_buku = ['Fundamental Python', 'How to change your bad habbits', 'Seven Habbits', '4DX']
+del daftar_buku[0::2]  # Format list comperhension [start:end:step], saat di run akan menghapus elemen tiap 2 lompatan
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
