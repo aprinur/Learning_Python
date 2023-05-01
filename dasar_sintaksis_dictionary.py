@@ -24,5 +24,24 @@ print(users["email"])
 print(users["address"]["City"])
 print(users["address"]["Geo"]["lng"])  # Contoh kode untuk menampilkan isi dictionary yang lebih spesifik
 
+# Contoh penggunaan json.dumps
+print(users)  # Hasil cetak akan menggunakan petik 1 berdasakan standart python
+print(type(users))  # Kode untuk cek tipe data
+print('\nUbah Dictionary ke Json')
+import json  # Kode untuk mengubah Dictionary ke Json berupa string
+result = json.dumps(users)
+print(type(result))
+print(result)    # Hasil cetak akan menggunakan petik 2
+
+# Contoh penggunaan json.dump
+with open('result.json', 'w') as file:  # Contoh membuka file di python dengan perintah open. 'w' = write
+    json.dump(users, file)  # Saat dijalankan akan ada file baru bernama result.json
+
 # Key = id, name, username, email dll. Key harus text tidak boleh angka
 # Dictionary = Python, Json = semua bahasa pemrograman
+# Dictionary tidak sama dengan Json meski bentuknya sama
+# Str = String
+# Dict = Dictionary
+# Dumps = Mengubah ke string
+# Dump = Mengubah ke file
+# Untuk mengubah tampilan file gunakan fungsi "reformat code" pada tab "code"
